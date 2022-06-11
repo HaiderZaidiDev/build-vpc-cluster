@@ -6,7 +6,7 @@ module "vpc_openshift_cluster" {
     vpc_id = ibm_is_vpc.lab_vpc.id
     worker_pool_flavor = var.pool_flavour
     worker_zones = {
-        var.region = {
+        (var.region) = {
             subnet_id = ibm_is_subnet.lab_vpc_subnets.id,
         }
     }
