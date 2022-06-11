@@ -1,5 +1,5 @@
 # build-vpc-cluster
-Terraform script to build a Open Shift Cluster on an IBM Cloud VPC.
+Terraform script to build a OpenShift Cluster on an IBM Cloud VPC.
 
 This script provisions the following resources:
 - [X] Openshift Cluster
